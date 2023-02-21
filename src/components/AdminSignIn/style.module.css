@@ -1,0 +1,80 @@
+body {
+  font-family: system-ui;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  padding: 10rem 0 20rem;
+  text-align: center;
+
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 20rem;
+  padding-top: 20rem;
+}
+
+.logo {
+  background-color: hsl(240, 57%, 44%);
+}
+
+.formContainer {
+  display: flex;
+}
+
+.inputRequired {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 129, 150);
+  flex-flow: column;
+}
+
+input {
+  position: relative;
+  outline: none;
+  border: none;
+  background-color: #e4e9ec;
+  /* color: #16161a; */
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  width: 35%;
+  height: 40px;
+}
+
+.help {
+  display: flex;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #7b8083;
+  font-size: x-small;
+  margin-left: 0;
+}
+
+button {
+  /* display: flex; */
+  margin-top: 1rem;
+  color: #ffffff;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 100;
+  font-family: inherit;
+  background-color: #110f0f;
+  cursor: pointer;
+  width: 100.11px;
+  transition: 0.5s ease-in-out;
+}
+button:hover {
+  background-color: hsl(240, 57%, 44%);
+  color: #ffffff;
+  width: 425px;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
