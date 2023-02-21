@@ -18,6 +18,15 @@ body {
 
 .logo {
   background-color: hsl(240, 57%, 44%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: peru;
+}
+
+img {
+  width: 3vw;
+  height: 3vh;
 }
 
 .formContainer {

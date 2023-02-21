@@ -1,10 +1,11 @@
 import "./style.module.css";
+import PbLogo from "../.././assets/pb-logo.svg";
 
 const AdminSignIn = () => {
   return (
     <div className="wrapper">
       <div className="logo">
-        <img src="#" alt="" />
+        <img src={PbLogo} alt="" />
         <span className="text">
           Pocket<strong>Base</strong>
         </span>
