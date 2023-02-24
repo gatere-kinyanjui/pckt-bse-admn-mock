@@ -1,0 +1,21 @@
+.headerContainer {
+  display: flex;
+  /* margin-bottom: 100px; */
+  background-color: teal;
+}
+
+header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0rem 0 0 0;
+  background-color: #e4e9ec;
+  justify-content: center;
+  height: max-content;
+  padding: 0.5rem;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+  width: 100%;
+}
